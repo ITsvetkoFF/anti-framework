@@ -18,6 +18,10 @@ Originally MVC was invented (adopted) in smalltalk community to do desktop UI (p
 
 ## Modern JavaScript
 Currently Web Components are very close to an original idea of MVC (good starting point https://youtu.be/plt-iH_47GE)
+The same video leads us to an awesome effort showing how custom elements are supported 
+https://custom-elements-everywhere.com/
 
 ## Example description
 An example in `src` section shows how you can cook original MVC without any framework (you may not need "newer" MVC on the frontend).
+
+Every dev pattern in the world is about S in SOLID. It is ridiculous to think that separating all your app into 3 pieces: Model, View and Controller is enough. You need to separate an app into smart (container) and dumb (presentational) MVC blocks. Second one should be raw View-Controller (model comes from outside), while the smart one may be the full MVC building block.
